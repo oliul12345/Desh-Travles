@@ -54,6 +54,8 @@ body{
 .popular-tour{
     display: flex;
     gap: 30px;
+    margin-top: 100px;
+    align-items: center;
 }
 .popular-tour-1{
     width: 50%;
@@ -61,6 +63,7 @@ body{
 }
 .popular-tour-2{
     width: 50%;
+    height: 100%;
 }
 .popular-tour-2-img{
     width: 100%;
@@ -141,8 +144,36 @@ body{
     margin-top: 24px;
     padding: 25px;
 }
+ /* newslatter section start  */
+ .newslatter{
+    display: flex;
+    gap: 40px;
+ }
+ .newslatter-part-1{
+    width: 50%;
+    border: 2px solid red;
+    padding: 25px;
+    border-radius: 5px;
+ }
+.newslatter-part-2{
+   width: 50%;
+}
 
-
+form input {
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px;
+}
+hr{
+    margin: 50px 0;
+}
 
 @media screen and (max-width: 576px) {
     /* hero part  */
@@ -183,6 +214,7 @@ body{
     }
     .popular-tour-2{
         width: 100%;
+        height: 100%;
     }
  /* image-galery  section start  */
  .image-galery{
@@ -230,7 +262,30 @@ body{
     flex-direction: column;
 }
 .chooseUs-part-2{
-    width: 100%;
+    width: 80%;
+}
+ /* newslatter section start  */
+ .newslatter{
+    display: flex;
+    flex-direction: column;
+ }
+ .newslatter-part-1{
+    width: 90%;
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 5px;
+ }
+.newslatter-part-2 img{
+  width: 350px;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+}
+hr{
+    margin: 50px 0;
 }
 
 
